@@ -8,13 +8,6 @@ fn main() {
             break;
         }
     }
-
-    // println!("{}", password.to_string());
-    // for n in &password.passw {
-    //     println!("{}", n);
-    // }
-    // password.increment();
-    // println!("{}", password.to_string());
 }
 
 
