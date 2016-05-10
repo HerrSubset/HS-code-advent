@@ -3,7 +3,7 @@ use std::io::Read;
 
 
 fn main() {
-    let mut f = File::open("./day12_input2.txt").unwrap();
+    let mut f = File::open("./day12_input.txt").unwrap();
     let mut s = String::new();
     f.read_to_string(&mut s).unwrap();
     let s = s;  //make s immutable
